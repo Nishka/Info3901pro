@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+ <html>
+
+ <head>
+ <title> Drawing </title>
+ <style>
+ canvas{
+ border:1px solid black
+ }
+ .edits{
+     display: inline-block ;
+  font: ;
+  backround-color: black;
+  text-align: center;
+  width:=50%;
+}
+ </style>
+ 	<p><strong>Please add a drawing below</strong></p>
+   <div class ="edits"> Options
+<button onclick ="window.location.reload()">RESET</button>
+<button onclick ="color = 'red'">red</button>
+<button onclick ="color = 'black'">black</button>
+<button onclick ="size =50">Brush size 50</button>
+<button onclick ="size =20">Brush size 20</button>
+<button onclick ="size =10">Brush size 10</button>
+<button onclick ="size =5"> Brush size 5</button>
+<button onclick ="size =1"> Brush size 1</button>
+</div>
+ </head>
+  <body>
+
+<div>
+  <canvas id="gc" width = "800" height = "600">
+ <script "text/javascript">
+ var size = 4;
+ var mousedown =true;
+ var color = 'black'
+
+   canvas=document.getElementById('gc');
+            canvas.addEventListener('mousedown',down);
+         canvas.addEventListener('mouseup',toggledraw);
+   canvas.addEventListener('mousemove',
+
+
+  function(evt){
+ var mousePos = getMousePos(canvas,evt);
+ var posx = mousePos.x;
+ var posy = mousePos.y;
+ draw(canvas,posx,posy);
+ });
+
+ function down(){
+  mousedown = true;
+ }
+
+
+
+ function toggledraw(){
+  mousedown = false;
+  canvas.style.cursor="default";
+ }
+
+ function getMousePos(canvas,evt){
+ var rect = canvas.getBoundingClientRect();
+
+ return{
+ x:evt.clientX - rect.left,
+ y:evt.clientY - rect.top
+       };
+ }
+ function draw(canvas,posx,posy){
+ var context =canvas.getContext('2d');
+ if(mousedown){
+ canvas.style.cursor="pointer";
+ context.fillStyle=color;
+ context.fillRect(posx,posy,size,size);
+ }
+ }
+ </script>
+<canvas id="gc" width = "300" height = "300">
+</canvas>
+</div>
+<button>Save</button>
+<button>Upload</button>
+
+
+
+ </body>
+ </html>﻿

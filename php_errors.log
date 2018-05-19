@@ -1,0 +1,84 @@
+[16-May-2018 01:30:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'registration' in /home/ubuntu/workspace/registration/dbh.inc.php on line 8
+[16-May-2018 01:30:48 UTC] PHP Stack trace:
+[16-May-2018 01:30:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/index.php:0
+[16-May-2018 01:30:48 UTC] PHP   2. include_once() /home/ubuntu/workspace/registration/index.php:3
+[16-May-2018 01:30:48 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/registration/dbh.inc.php:8
+[16-May-2018 01:30:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'registration' in /home/ubuntu/workspace/registration/server.php on line 10
+[16-May-2018 01:30:49 UTC] PHP Stack trace:
+[16-May-2018 01:30:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/login.php:0
+[16-May-2018 01:30:49 UTC] PHP   2. include() /home/ubuntu/workspace/registration/login.php:1
+[16-May-2018 01:30:49 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/registration/server.php:10
+[16-May-2018 01:31:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'registration' in /home/ubuntu/workspace/registration/server.php on line 10
+[16-May-2018 01:31:00 UTC] PHP Stack trace:
+[16-May-2018 01:31:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/register.php:0
+[16-May-2018 01:31:00 UTC] PHP   2. include() /home/ubuntu/workspace/registration/register.php:1
+[16-May-2018 01:31:00 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/registration/server.php:10
+[16-May-2018 01:31:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'registration' in /home/ubuntu/workspace/registration/server.php on line 10
+[16-May-2018 01:31:05 UTC] PHP Stack trace:
+[16-May-2018 01:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/login.php:0
+[16-May-2018 01:31:05 UTC] PHP   2. include() /home/ubuntu/workspace/registration/login.php:1
+[16-May-2018 01:31:05 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/registration/server.php:10
+[16-May-2018 06:50:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/server.php on line 33
+[16-May-2018 06:50:24 UTC] PHP Stack trace:
+[16-May-2018 06:50:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/register.php:0
+[16-May-2018 06:50:24 UTC] PHP   2. include() /home/ubuntu/workspace/registration/register.php:1
+[16-May-2018 06:50:24 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/registration/server.php:33
+[16-May-2018 06:50:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/index.php on line 61
+[16-May-2018 06:50:25 UTC] PHP Stack trace:
+[16-May-2018 06:50:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/index.php:0
+[16-May-2018 06:50:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/registration/index.php:61
+[16-May-2018 07:00:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/index.php on line 61
+[16-May-2018 07:00:52 UTC] PHP Stack trace:
+[16-May-2018 07:00:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/index.php:0
+[16-May-2018 07:00:52 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/registration/index.php:61
+[16-May-2018 09:12:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/index.php on line 61
+[16-May-2018 09:12:26 UTC] PHP Stack trace:
+[16-May-2018 09:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/index.php:0
+[16-May-2018 09:12:26 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/registration/index.php:61
+[17-May-2018 06:32:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/index.php on line 61
+[17-May-2018 06:32:28 UTC] PHP Stack trace:
+[17-May-2018 06:32:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/index.php:0
+[17-May-2018 06:32:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/registration/index.php:61
+[17-May-2018 06:32:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/index.php on line 61
+[17-May-2018 06:32:28 UTC] PHP Stack trace:
+[17-May-2018 06:32:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/index.php:0
+[17-May-2018 06:32:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/registration/index.php:61
+[17-May-2018 06:32:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/server.php on line 73
+[17-May-2018 06:32:46 UTC] PHP Stack trace:
+[17-May-2018 06:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/login.php:0
+[17-May-2018 06:32:46 UTC] PHP   2. include() /home/ubuntu/workspace/registration/login.php:1
+[17-May-2018 06:32:46 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/registration/server.php:73
+[17-May-2018 06:33:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/server.php on line 73
+[17-May-2018 06:33:07 UTC] PHP Stack trace:
+[17-May-2018 06:33:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/login.php:0
+[17-May-2018 06:33:07 UTC] PHP   2. include() /home/ubuntu/workspace/registration/login.php:1
+[17-May-2018 06:33:07 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/registration/server.php:73
+[17-May-2018 06:33:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/server.php on line 73
+[17-May-2018 06:33:30 UTC] PHP Stack trace:
+[17-May-2018 06:33:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/login.php:0
+[17-May-2018 06:33:30 UTC] PHP   2. include() /home/ubuntu/workspace/registration/login.php:1
+[17-May-2018 06:33:30 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/registration/server.php:73
+[17-May-2018 06:34:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/index.php on line 61
+[17-May-2018 06:34:30 UTC] PHP Stack trace:
+[17-May-2018 06:34:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/index.php:0
+[17-May-2018 06:34:30 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/registration/index.php:61
+[17-May-2018 06:35:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/index.php on line 61
+[17-May-2018 06:35:26 UTC] PHP Stack trace:
+[17-May-2018 06:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/index.php:0
+[17-May-2018 06:35:26 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/registration/index.php:61
+[17-May-2018 07:50:30 UTC] PHP Parse error:  syntax error, unexpected '$question' (T_VARIABLE) in /home/ubuntu/workspace/registration/contactform.php on line 7
+[17-May-2018 08:34:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/registration/upload.php on line 16
+[17-May-2018 08:35:13 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/registration/upload.php on line 16
+[17-May-2018 09:22:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/index.php on line 61
+[17-May-2018 09:22:22 UTC] PHP Stack trace:
+[17-May-2018 09:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/index.php:0
+[17-May-2018 09:22:22 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/registration/index.php:61
+[17-May-2018 09:25:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/index.php on line 61
+[17-May-2018 09:25:29 UTC] PHP Stack trace:
+[17-May-2018 09:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/index.php:0
+[17-May-2018 09:25:29 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/registration/index.php:61
+[17-May-2018 21:58:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/registration/server.php on line 73
+[17-May-2018 21:58:01 UTC] PHP Stack trace:
+[17-May-2018 21:58:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/registration/login.php:0
+[17-May-2018 21:58:01 UTC] PHP   2. include() /home/ubuntu/workspace/registration/login.php:1
+[17-May-2018 21:58:01 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/registration/server.php:73

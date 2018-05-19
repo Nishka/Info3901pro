@@ -1,0 +1,49 @@
+<!doctype html>
+<head>
+  <title>Forum</title>
+<link rel="stylesheet" type= "text/css" href="{{url_for('static', filename = 'style.css')}}">
+</head>
+<body>
+  <p>Hello {{name}},</p>
+<br/><br/>
+
+
+</ol>
+<h1>{{x[0]}}</h1>
+
+<br/><br/>
+        <form method = "POST" enctype="multipart/form-data" action="upload.php">
+          <label>Topic</label>
+          <input type="text" name= "topic" placeholder="Please enter the topic"/>
+          <br/><br/>
+          <div>
+            <label>Question</label>
+          </div>
+
+
+
+          <div>
+            <label>Answer</label>
+          </div>
+          <textarea type="text" name="ans" cols="40" rows="4" placeholder="Please type your response"></textarea>
+          <br/>
+          <div>
+            <label>Upload A Document</label><br/>
+            <input type="file" name="image">
+          </div>
+
+    <br/>
+
+          <div>
+            <button type="submit" name="submit">Submit</button>
+          </div>
+
+
+        </form>
+
+
+
+
+</ol>
+
+</body>
